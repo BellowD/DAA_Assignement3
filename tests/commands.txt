@@ -1,0 +1,5 @@
+python tools/run.py --setup
+python tools/run.py --check
+python tools/run.py --input tests/my_cases.jsonl
+python tests/test_algorithms.py
+python tools/benchmark_mst.py
